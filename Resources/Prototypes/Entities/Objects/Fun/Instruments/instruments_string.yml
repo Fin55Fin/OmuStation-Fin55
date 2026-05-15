@@ -280,3 +280,17 @@
     size: Large
     shape:
     - 0,0,1,3
+
+- type: entity
+  parent: BaseStringInstrument
+  id: GoldFiddle
+  name: golden fiddle
+  description: They say a cargo tech won this from the out-playing devil. It smells like peeches.
+  components:
+  - type: Instrument
+    program: 110
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/fiddle.rsi
+  - type: Item
+    size: Large
+    
