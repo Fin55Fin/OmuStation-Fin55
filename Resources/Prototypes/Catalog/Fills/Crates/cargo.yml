@@ -466,5 +466,8 @@
     - id: GrenadeFoamDart
       prob: 0.001
       orGroup: NotUseful
+    - id: GoldFiddle
+      prob: 0.01
+      orGroup: NotUseful
   - type: Fish
     difficulty: 0.035
